@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="logo" href="./index.html"><span>Web</span>Studio</a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html"> Studio </a>
+            </li>
+
+            <li class="nav-item line">
+              <a class="nav-link active" href="./portfolio.html"> Portfolio </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Contacts </a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="nav-address">
+            <li class="address-list">
+              <a class="address-link" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="address-list">
+              <a class="address-link" href="tel:+110001111111">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <main>
+      <section class="filters">
+        <div class="container filters-container">
+          <h1 class="visually-hidden">Portfolio</h1>
+          <!-- Portfolio buttons -->
+          <ul class="filters-list">
+            <li class="filters-item">
+              <button class="filters-btn first-btn" type="button">All</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-btn" type="button">Web Site</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-btn" type="button">App</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-btn" type="button">Design</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-btn" type="button">Marketing</button>
+            </li>
+          </ul>
+          <!-- Portfolio Cards -->
+          <ul class="filters-list-cards">
+            <li class="filters-item-cards">
+              <a href="#" class="filters-box">
+                <div class="wrapper">
+                  <img
+                    class="filters-img"
+                    src="./images/portfolio-list-cards/banking.jpg"
+                    alt="banking-app-interface-concept"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Banking App Interface Concept : App
+                    </p>
+                  </div>
+                </div>
+                <div class="cards-text">
+                  <h2 class="cards-title">Banking App Interface Concept</h2>
+                  <p class="cards-title-text">App</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="filters-item-cards">
+              <a href="#" class="filters-box">
+                <div class="wrapper">
+                  <img
+                    class="filters-img"
+                    src="./images/portfolio-list-cards/cashless.jpg"
+                    alt="cashless-payment"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">Cashless Payment : Marketing</p>
+                  </div>
+                </div>
+                <div class="cards-text">
+                  <h2 class="cards-title">Cashless Payment</h2>
+                  <p class="cards-title-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="filters-item-cards">
+              <a href="#" class="filters-box">
+                <div class="wrapper">
+                  <img
+                    class="filters-img"
+                    src="./images/portfolio-list-cards/meditation.jpg"
+                    alt="meditation-app"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">Meditaion App : App</p>
+                  </div>
+                </div>
+                <div class="cards-text">
+                  <h2 class="cards-title">Meditaion App</h2>
+                  <p class="cards-title-text">App</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="filters-item-cards">
+              <a href="#" class="filters-box">
+                <div class="wrapper">
+                  <img
+                    class="filters-img"
+                    src="./images/portfolio-list-cards/taxi.jpg"
+                    alt="taxi-service"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">Taxi Service : Marketing</p>
+                  </div>
+                </div>
+                <div class="cards-text">
+                  <h2 class="cards-title">Taxi Service</h2>
+                  <p class="cards-title-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="filters-item-cards">
+              <a href="#" class="filters-box">
+                <div class="wrapper">
+                  <img
+                    class="filters-img"
+                    src="./images/portfolio-list-cards/illustrations.jpg"
+                    alt="screen-illustrations"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">Screen Illustrations : Design</p>
+                  </div>
+                </div>
+                <div class="cards-text">
+                  <h2 class="cards-title">Screen Illustrations</h2>
+                  <p class="cards-title-text">Design</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="filters-item-cards">
+              <a href="#" class="filters-box">
+                <div class="wrapper">
+                  <img
+                    class="filters-img"
+                    src="./images/portfolio-list-cards/courses.jpg"
+                    alt="online-courses"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">Online Courses : Marketing</p>
+                  </div>
+                </div>
+                <div class="cards-text">
+                  <h2 class="cards-title">Online Courses</h2>
+                  <p class="cards-title-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="filters-item-cards">
+              <a href="#" class="filters-box">
+                <div class="wrapper">
+                  <img
+                    class="filters-img"
+                    src="./images/portfolio-list-cards/instagram.jpg"
+                    alt="instagramm-stories-concept"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Instagram Stories Concept : Design
+                    </p>
+                  </div>
+                </div>
+                <div class="cards-text">
+                  <h2 class="cards-title">Instagram Stories Concept</h2>
+                  <p class="cards-title-text">Design</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="filters-item-cards">
+              <a href="#" class="filters-box">
+                <div class="wrapper">
+                  <img
+                    class="filters-img"
+                    src="./images/portfolio-list-cards/food.jpg"
+                    alt="organic-food"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">Organic Food : Web Site</p>
+                  </div>
+                </div>
+                <div class="cards-text">
+                  <h2 class="cards-title">Organic Food</h2>
+                  <p class="cards-title-text">Web Site</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="filters-item-cards">
+              <a href="#" class="filters-box">
+                <div class="wrapper">
+                  <img
+                    class="filters-img"
+                    src="./images/portfolio-list-cards/coffee.jpg"
+                    alt="fresh-coffee"
+                    width="360"
+                    height="300"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">Fresh Coffee : Web Site</p>
+                  </div>
+                </div>
+                <div class="cards-text">
+                  <h2 class="cards-title">Fresh Coffee</h2>
+                  <p class="cards-title-text">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container container">
+        <div>
+          <a class="footer-logo" href="./index.html"><span>Web</span>Studio</a>
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+
+        <div class="footer-social">
+          <p class="footer-text">Social media</p>
+          <ul class="footer-social-list">
+            <li class="footer-socials-item">
+              <a href="#" class="footer-social-link">
+                <svg class="footer-socials-icon" width="24px" height="24px">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer-socials-item">
+              <a href="#" class="footer-social-link">
+                <svg class="footer-socials-icon" width="24px" height="24px">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer-socials-item">
+              <a href="#" class="footer-social-link">
+                <svg class="footer-socials-icon" width="24px" height="24px">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="footer-socials-item">
+              <a href="#" class="footer-social-link">
+                <svg class="footer-socials-icon" width="24px" height="24px">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-subscribe">
+          <p class="footer-text">Subscribe</p>
+          <form class="footer-form">
+            <input
+              class="footer-form-input"
+              type="email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-form-btn">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
